@@ -1,4 +1,4 @@
-## Default Visibility
+## Default Visibility [DEPRECATED]
 
 Visibility specifiers are used to determine where a function or variable can be accessed from. As explained in the [solidity docs](https://docs.soliditylang.org/en/v0.8.15/cheatsheet.html?highlight=visibility#function-visibility-specifiers): 
 

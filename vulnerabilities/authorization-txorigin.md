@@ -1,6 +1,6 @@
 ## Authorization Through tx.origin
 
-`tx.origin` is a global variable in Solidity which returns the address that sent a transaction. It's important that you never use `tx.origin` for authorization since another contract can use a fallback function to call your contract and gain authorization since the authorized address is stored in `tx.origin`. Consider this example:
+`tx.origin` is a global variable in Solidity which returns the address that sent a transaction. It's important that you are aware of the risk of using `tx.origin` for authorization since another contract can use a fallback function to call your contract and gain authorization since the authorized address is stored in `tx.origin`. Consider this example:
 
 ```
 pragma solidity >=0.5.0 <0.7.0;

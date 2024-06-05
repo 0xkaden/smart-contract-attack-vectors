@@ -1,4 +1,4 @@
-## Use of Deprecated Functions
+## Use of Deprecated Functions [DEPRECATED]
 
 As time goes by, functions and operators in Solidity are deprecated and often replaced. It's important to not use deprecated functions, as it can lead to unexpected effects and compilation errors.
 

@@ -1,4 +1,4 @@
-## Incorrect Constructor Name
+## Incorrect Constructor Name [DEPRECATED]
 
 > [!NOTE]  
 > This vulnerability is relevant to older contracts using Solidity versions before `0.4.22`. Modern Solidity versions (0.4.22 and later) use the `constructor` keyword, effectively deprecating this vulnerability. However, it is still important to be aware of this issue when reviewing or interacting with legacy contracts.

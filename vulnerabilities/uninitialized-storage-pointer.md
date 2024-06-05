@@ -1,4 +1,4 @@
-## Uninitialized Storage Pointer
+## Uninitialized Storage Pointer [DEPRECATED]
 
 > [!NOTE]  
 > As of solidity `0.5.0`, uninitialized storage pointers are no longer an issue since contracts with uninitialized storage pointers will no longer compile. This being said, it's still important to understand what storage pointers you should be using in certain situations.
